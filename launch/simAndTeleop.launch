@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="turtleclean" name="sim" type="turtleclean_node" output="screen"/>
+    <node pkg="turtleclean" name="teleop" type="turtle_teleop_key"/>
+</launch>

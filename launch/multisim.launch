@@ -1,0 +1,8 @@
+<launch>
+	<group ns="turtleclean1">
+	       <node pkg="turtleclean" name="sim" type="turtleclean_node"/>
+	</group>
+	<group ns="turtleclean2">
+	       <node pkg="turtleclean" name="sim" type="turtleclean_node"/>
+	</group>
+</launch>
